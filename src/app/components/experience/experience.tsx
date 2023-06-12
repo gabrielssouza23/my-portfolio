@@ -5,7 +5,7 @@ export function Experience(){
     return(
         <div className='experience'>
         <SectionTitle text="Experience"/>
-        <p>Student of the third year Technical Course in IFSul. I have worked for 4 months as Technical assistant fixing notebooks, desktops, printers and networks.</p>
+        <p>Third year student of a Technical Course in IFSul. I have worked for 4 months as Technical assistant fixing notebooks, desktops, printers and networks.</p>
         <div className="experience-time">
           <div>
             <div className="experience-language">
