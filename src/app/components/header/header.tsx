@@ -1,11 +1,11 @@
-import Image from 'next/image'
-import './header.scss'
-export function Header() {
-    return(
+import Image from 'next/image';
+import './header.scss';
 
-      <div className='header'>
+export function Header() {
+  return (
+    <div className='header'>
       <div>
-        <h1>Hi, i'm Gabriel! 👋</h1>
+        <h1>Hi, i am Gabriel! 👋</h1>
         <h2>Software Developer</h2>
       </div>
       <Image
@@ -16,6 +16,5 @@ export function Header() {
         priority
       />
     </div>
-
-    )
+  );
 }
